@@ -1,0 +1,42 @@
+.page-footer{
+    background: url('../../images/background-resized.jpg');
+    background-repeat: repeat space;
+    background-position: bottom;
+    background-size: auto;
+    width: 100%; 
+    bottom: 0;
+    margin-top: auto;
+}
+
+.container-footer{
+    background-color: black;
+    opacity: 0.9;
+    min-width: 100% !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.logo-container{
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left: 42%;
+    margin-bottom: -2rem;
+}
+
+.footer-image{
+    width:100px;
+    height: 100px;
+    /* margin-left: 25%;*/
+    margin-bottom: -4rem;
+    left: 18%;
+    position: relative;
+    /* left: 35%; */
+    /* top: 20%; */
+}
+.footer__text{
+    /* left: 25%; */
+    position: relative;
+    margin-top: 3.5rem;
+}

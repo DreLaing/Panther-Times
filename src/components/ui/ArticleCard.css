@@ -1,0 +1,164 @@
+.post{
+    font-family: 'Exo 2', sans-serif;
+    background-color: white;
+    color: black !important;
+    min-height: 110px;
+    max-height: 120px;
+    border-right: 1px solid white;
+    padding-bottom: 0 !important;
+    margin: 20px;
+    margin-right: 0;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;    
+}
+
+
+.card-text > p{
+    z-index: 1;
+    font-family: 'Helvetica';
+    color:black !important;
+    font-weight: 700 !important;
+    padding-bottom: 0;
+    text-shadow: rgb(78, 78, 78) 0px 0px 1px;
+    /* margin-top: -5px; */
+}
+
+.card-summary{
+    /* display:none; */
+    font-size: 16px;
+    margin-top:-6px;
+    padding-bottom: 10px;
+    font-family: 'Helvetica';
+    color:gray !important;
+}
+
+.arrow-icon{
+    font-size: 25px;
+    display:none;    
+}
+
+.sports{
+    border-left: 2px solid rgb(251, 255, 0) !important;
+    width: 90px;
+}
+.lifestyle{
+    border-left: 2px solid rgb(156, 18, 126) !important;
+    width: 90px;
+}
+.business{
+    border-left: 2px solid rgb(255, 3, 3) !important;
+    width: 90px;
+}
+
+
+.article-type{
+    margin-bottom: 15px;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    text-shadow: rgb(78, 78, 78) 0px 0px 0px !important;
+    font-weight: 600 !important;
+    border-left: 2px solid rgb(20, 18, 156);
+    width: 120px;
+    margin-top: 7px;
+    padding-left: 5px;
+}
+
+@media (max-device-width: 700px){
+    .container{
+        max-width: 360px;
+    }
+    /* .desktop-view{
+        display:none;
+    } */
+ 
+    .news-row{
+        width: 100%;
+        /* grid-gap: 8rem; */
+        display: flex;
+        align-content: space-evenly;
+        justify-content: space-evenly;     
+    }
+   .news-row > div{
+        flex: 0 100% !important;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .post{
+        margin-bottom: 3rem;
+        width: 100%;
+        background-color: white !important;
+        padding-bottom: 0 !important;
+        max-height: 300px;
+    }
+    /* .row{
+        width: 100%;
+    }   */
+    /* .col-md-6{
+        justify-content: center;
+        background-color:red;
+        display:flex;
+    } */
+
+    .card-text{
+        z-index: 1;
+        /* border-bottom: 1px solid gray; */
+        /* margin-left: 25%; */
+        font-size: 20px;
+        margin-top: -8px;
+        /* position: absolute; */
+        bottom: 15px;
+        /* left: 10px; */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 25px;
+        padding-left:5px !important;
+        padding-bottom:0;
+        max-width:345px;
+        /* background-color: navy; */
+
+        background-color: white;
+        max-height: 150px;
+        min-height: 150px;
+    }
+    .card-text > p{
+        z-index: 1;
+        font-family: 'Helvetica';
+        color:black !important;
+        font-weight: 700 !important;
+        padding-bottom: 0;
+        text-shadow: rgb(78, 78, 78) 0px 0px 1px;
+        /* margin-top: -5px; */
+    }
+
+    .card-summary{
+        /* display:none; */
+        font-size: 20px;
+        margin-top:-6px;
+        padding-bottom: 10px;
+        font-family: 'Helvetica';
+        color:gray !important;
+    }
+    
+    .img{
+        min-width: 100% !important; 
+        min-height: 195px !important;
+        position: relative;
+    }
+    .article-type{
+        margin-bottom: 15px;
+        font-family: 'Helvetica';
+        font-size: 17px;
+        text-shadow: rgb(78, 78, 78) 0px 0px 0px !important;
+        font-weight: 600 !important;
+        margin-top: 7px;
+        padding-left: 5px;
+    }
+
+    .arrow-icon{
+        font-size: 25px;
+        display:none;    
+    }
+
+
+}

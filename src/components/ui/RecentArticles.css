@@ -1,0 +1,114 @@
+
+.news-row{
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 1050px;
+    /* width: 1050px; */
+    /* margin-left: 15%; */
+    /* min-width: 1050px;   */
+    justify-content: space-between;
+}
+.news-row > div{
+    flex: 0 45% !important;
+    max-width: 45%;
+}
+.container{
+    margin-top: 20px !important;
+}
+
+.page__title{
+    
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Lora', serif;   
+}
+a{
+    color:black;
+    /* white-space: nowrap; */
+}
+a:hover{
+    color: black;
+}
+.title__paragraph{
+    border-bottom: 1px solid gray!important;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+.section__title{
+    width: 200px;
+    font-family: 'Lora', serif;
+    font-size: 25px; 
+    /* margin-left: 7% !important; */
+    padding-left: 10px;
+    /* border-bottom: 1px solid gray; */
+    /* border-left: 5px solid rgb(20, 18, 156); */
+    border-left: black 5px solid;
+    /* margin-bottom: -0.5rem !important; */
+    margin-bottom: 2rem;
+}
+
+.second-column{
+    margin-left: 0 !important;
+}
+
+.date{
+    margin-left: 55% !important;
+    margin-bottom: -3px;
+    z-index: 100;
+}
+
+.img{
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    /* height: 200px; */
+    /* object-fit: contain; */
+    min-height: 120px;
+    max-height: 120px;
+    max-width: 200px;
+    min-width: 200px;
+}
+.view{
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    margin-left: -15px !important;
+    padding-left: 0 !important;
+}
+
+.btn{
+    background-color: rgba(86, 11, 206, 1);
+    color: white;
+}
+
+.pagination{
+    margin-left: 70%;
+    margin-top: 20px;
+}
+
+.article-title{
+    margin-top: 10px;
+}
+
+
+@media (max-device-width: 700px){
+    .container{
+        max-width: 360px;
+    }
+    /* .desktop-view{
+        display:none;
+    } */
+ 
+    .news-row{
+        width: 100%;
+        /* grid-gap: 8rem; */
+        display: flex;
+        align-content: space-evenly;
+        justify-content: space-evenly;     
+    }
+   .news-row > div{
+        flex: 0 100% !important;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+}

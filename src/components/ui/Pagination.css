@@ -1,0 +1,9 @@
+.page-item a.current{
+    background-color: black;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 640px){
+    .pagination{
+        margin-left:25%;
+    }
+}
